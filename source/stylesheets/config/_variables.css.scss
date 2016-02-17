@@ -23,14 +23,36 @@ $base-height: 1.4;
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
-// Scheme
-$brand-color: #D23333;
 
-$red: #EE5F5B;
-$blue: #469AE0;
-$yellow: #FDB631;
-$orange: #E67E22;
-$green: #32B796;
+// Flat colors from flatuicolors.com
+$turquoise: #1abc9c;
+$green-sea: #16a085;
+$emerald: #2ecc71;
+$nephritis: #27ae60;
+$peter-river: #3498db;
+$belize-hole: #2980b9;
+$amethyst: #9b59b6;
+$wisteria: #8e44ad;
+$wet-asphalt: #34495e;
+$midnight-blue: #2c3e50;
+$sun-flower: #f1c40f;
+$orange: #f39c12;
+$carrot: #e67e22;
+$pumpkin: #d35400;
+$alizarin: #e74c3c;
+$pomegranate: #c0392b;
+$clouds: #ecf0f1;
+$silver: #bdc3c7;
+$concrete: #95a5a6;
+$asbestos: #7f8c8d;
+
+// Scheme
+$brand-color: $turqoise;
+
+$red: $alizarin;
+$blue: $peter-river;
+$yellow: $sun-flower;
+$green: $emerald;
 
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222
