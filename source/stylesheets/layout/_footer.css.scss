@@ -1,0 +1,18 @@
+.footer-custom {
+  background-color: $wet-asphalt;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  p {
+    font-weight: 300;
+    margin: 0;
+  }
+
+  .footer-custom-copyright {
+    padding: 20px;
+    color: white;
+  }
+}
