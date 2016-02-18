@@ -2,14 +2,19 @@
 title: Middleman template
 ---
 
+div class="banner" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('background.jpg');"
+  div class="banner-content"
+    h1 I am the banner!
+    p Customize me to fit your needs
+    a class="btn btn-primary btn-lg"
+      | Do something
 
-div class="welcome text-center padded"
+div class="text-center"
   h1 Welcome to Middleman
-  p class="doc"
+  p
     = link_to "Read Online Documentation", "http://middlemanapp.com/"
 
-
   h2 Flat colors available
-  p class="doc"
+  p
     = link_to "flatuicololors.com", "https://flatuicolors.com/"
     |  use them with for example $turquoise or $peter-river
