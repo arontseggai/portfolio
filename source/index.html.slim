@@ -1,20 +1,62 @@
----
-title: Middleman template
----
+.banner class="cover"
+  .banner-content
+    .banner-title
+      h1 aron tseggai
 
-div class="banner" style="background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(#{image_path 'background.jpg'});"
-  div class="banner-content"
-    h1 I am the banner!
-    p Customize me to fit your needs
-    a class="btn btn-primary btn-lg"
-      | Do something
 
-div class="text-center"
-  h1 Welcome to Middleman
-  p
-    = link_to "Read Online Documentation", "http://middlemanapp.com/"
 
-  h2 Flat colors available
-  p
-    = link_to "flatuicololors.com", "https://flatuicolors.com/"
-    |  use them with for example $turquoise or $peter-river
+.wrapper-skills.padded
+  .container
+    .row
+      .col-sm-6.margin-bottom-xs
+        h2 MY SKILLS
+        p
+          | I am a fullstack web developer
+          br/
+          | trained by
+          a href="https://www.lewagon.com/" target="_blank"  Le Wagon
+          | at the
+          a href="http://bssa.nu/" target="_blank"  BSSA
+          br/
+          | go ahead and check stuff out!
+      .col-sm-6
+        h4 Ruby
+        .progress
+          .progress-bar aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" role="progressbar" style=("width: 90%")
+            span.sr-only
+        h4 SQL
+        .progress
+          .progress-bar aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" style=("width: 70%")
+            span.sr-only
+        h4 HTML5 - CSS3
+        .progress
+          .progress-bar aria-valuemax="100" aria-valuemin="0" aria-valuenow="100" role="progressbar" style=("width: 100%")
+            span.sr-only
+        h4 Javascript
+        .progress
+          .progress-bar aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" style=("width: 70%")
+            span.sr-only
+
+
+
+.wrapper-introduction
+  .container.valuesbox.padded
+    .row
+      .col-xs-12.col-sm-4.text-center
+        h2
+          strong JUNIOR
+        h4
+          | I have just started on this journey
+          br/
+          | But I am eager to learn!
+      .col-xs-12.col-sm-4.text-center
+        h2
+          strong FULLSTACK
+        h4 I've been taught in Ruby, SQL, HTML, CSS3 and Javascript
+      .col-xs-12.col-sm-4.text-center
+        h2
+          strong DEVELOPER
+        h4
+          | I make stuff that does things
+          br/
+          | and it looks good while doing it

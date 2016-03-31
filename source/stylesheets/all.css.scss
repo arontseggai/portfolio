@@ -13,3 +13,29 @@
 @import "components/*";
 @import "pages/*";
 @import "vendor/*";
+
+
+
+body {
+  margin: 0;
+  font-family: 'Raleway' sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway';
+  text-decoration: none;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+
+.padded {
+  padding: 100px 0;
+}
+
+.padded-slight {
+  padding: 10px 0;
+}

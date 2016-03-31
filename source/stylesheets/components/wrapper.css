@@ -1,0 +1,90 @@
+.wrapper-grey {
+  background: #F4F4F4;
+}
+
+.wrapper-white {
+  background-color: white;
+}
+
+.wrapper-introduction {
+  margin: 0 auto;
+  color: #777777;
+  background-color: #CDB380;
+  width: 100%;
+}
+
+.wrapper-contact {
+  margin: 0 auto;
+  background-color: #031634;
+  width: 100%;
+  color: white;
+  font-family: 'raleway';
+  font-style: solid;
+  display: flex;
+  text-align: center;
+}
+
+.mail {
+  border-color: white;
+  border-style: solid;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background 0.3s ease;
+}
+
+.mail:hover {
+  background-color: white;
+  border-style: none;
+  color: #031634;
+  text-decoration: none;
+}
+
+.wrapper-contact a {
+  color: white;
+}
+
+.wrapper-languages {
+ margin: 0 auto;
+ background-color: #040404;
+ width: 100%;
+ color: white;
+ font-family: 'raleway';
+}
+
+.wrapper-cards {
+  color: #006DAA;
+  background: cover;
+  background-color: #EDEFF0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.wrapper-logos {
+  background-color: #033649;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background:  cover;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrapper-skills {
+  background-color: #E8DDCB;
+  color: #777777;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background:  cover;
+  font-family: 'raleway';
+}
+
+.wrapper-skills .progress-bar {
+  background-color:  #34495E;
+}
+
+.progress {
+  background-color: #CDB380;
+}
+
+
