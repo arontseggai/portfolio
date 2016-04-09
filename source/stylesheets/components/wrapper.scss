@@ -1,0 +1,62 @@
+.wrapper-introduction {
+  margin: 0 auto;
+  color: #777777;
+  background-color: #CDB380;
+  width: 100%;
+}
+
+.wrapper-introduction h4 {
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+
+
+
+
+.wrapper-skills {
+  background-color: #E8DDCB;
+  color: #777777;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background:  cover;
+  font-family: 'raleway';
+}
+
+.skills-header h2 {
+  font-weight: bold;
+}
+
+.skills-paragraph {
+  font-size: 25px;
+}
+
+.wrapper-skills .progress-bar {
+  background-color:  #34495E;
+}
+
+.progress {
+  background-color: #CDB380 !important;
+}
+
+
+
+
+
+
+
+
+.wrapper-projects {
+  background-color: #E8DDCB;
+  color: #777777;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background:  cover;
+  font-family: 'raleway';
+}
+
+.project-card {
+ height: 40vh;
+ background-size: cover !important;
+ background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), image_url('stairsdone.jpg');
+}
