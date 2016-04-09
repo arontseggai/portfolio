@@ -29,3 +29,13 @@
 .bg-facebook {
   background: #3b5998;
 }
+
+a  {
+  color: white !important;
+  text-decoration:none !important;
+  :hover {
+    text-decoration: none !important;
+    cursor:pointer;
+    opacity: 0.98;
+  }
+}
