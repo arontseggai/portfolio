@@ -1,0 +1,49 @@
+/* line 1, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/banner.scss */
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 10, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/banner.scss */
+.banner h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2); }
+
+/* line 16, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/banner.scss */
+.banner p {
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px; }
+
+/* line 23, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/banner.scss */
+.overlay {
+  background: #031634;
+  opacity: .5; }
+
+/* line 29, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/banner.scss */
+.banner-title {
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  padding: 20px 20px; }
+
+/* line 36, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/banner.scss */
+.cover {
+  background-image: -webkit-linear-gradient(315deg, rgba(0, 101, 168, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%), url("../../images/stairsdone.jpg");
+  background-image: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%), url("../../images/stairsdone.jpg"); }
