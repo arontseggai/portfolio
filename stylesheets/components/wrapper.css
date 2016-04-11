@@ -1,0 +1,52 @@
+/* line 1, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/wrapper.scss */
+.wrapper-introduction {
+  margin: 0 auto;
+  color: #777777;
+  background-color: #CDB380;
+  width: 100%; }
+
+/* line 8, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/wrapper.scss */
+.wrapper-introduction h4 {
+  margin-top: 50px;
+  font-size: 25px; }
+
+/* line 17, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/wrapper.scss */
+.wrapper-skills {
+  background-color: #E8DDCB;
+  color: #777777;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: cover;
+  font-family: 'raleway'; }
+
+/* line 26, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/wrapper.scss */
+.skills-header h2 {
+  font-weight: bold; }
+
+/* line 30, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/wrapper.scss */
+.skills-paragraph {
+  font-size: 25px; }
+
+/* line 34, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/wrapper.scss */
+.wrapper-skills .progress-bar {
+  background-color: #34495E; }
+
+/* line 38, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/wrapper.scss */
+.progress {
+  background-color: #CDB380 !important; }
+
+/* line 49, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/wrapper.scss */
+.wrapper-projects {
+  background-color: #E8DDCB;
+  color: #777777;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background: cover;
+  font-family: 'raleway'; }
+
+/* line 58, /home/arontseggai/code/arontseggai/personal/portfolio/source/stylesheets/components/wrapper.scss */
+.project-card {
+  min-height: 250px;
+  background-size: cover !important;
+  background-image: url("../../images/meta_image.png");
+  margin-top: 40px; }
