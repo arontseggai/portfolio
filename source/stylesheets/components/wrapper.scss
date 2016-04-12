@@ -58,5 +58,15 @@
 .project-card {
  height: 40vh;
  background-size: cover !important;
- background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), image_url('stairsdone.jpg');
+ background-image: image_url('meta_image.png');
+}
+
+.project-description-card {
+ height: 40vh;
+ background-size: cover !important;
+ background-color: white;
+}
+
+.project-total {
+  padding-top: 50px;
 }
